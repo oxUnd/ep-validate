@@ -1,0 +1,19 @@
+{
+    "name": "shouding/ep-validate",
+    "description": "Another validate tool",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiangshouding",
+            "email": "fansekey@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src"
+        ]
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
