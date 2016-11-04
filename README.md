@@ -37,8 +37,10 @@ $rules = array(
     'gender' => 'required|enum:m,f',
     'ext' => '$ref:ext',
     '$define' => array(
-        'school' => 'string',
-        'class' => 'string'
+        'ext' => array(
+            'school' => 'string',
+            'class' => 'string'
+        )
     ),
 );
 
