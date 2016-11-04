@@ -189,8 +189,6 @@ class Ep_Validate
 
             if ($json === null || !is_array($json))
             {
-                Bd_Log::addNotice('json_validate', 'input string: ' . $value);
-
                 return false;
             }
 
